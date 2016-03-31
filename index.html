@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> <!-- lo que esta pero no se ve-->
+	<meta charset="UTF-8">
+	<TITLE>LISTA DE SUPER</TITLE>
+	<link rel="stylesheet" type="text/css" href="css/styles.css"> <!-- Para conectar el archivo de css con el de htlm. se busca dentro de la carpeta porque no estan al mismo nivel. -->
+</head>
+<body><!-- Es lo que se va a ver en la página-->
+	<header><!-- Contenedor que contiene el encabezado-->
+		<img src="img/mega.jpg">
+			<nav> <!-- contenedor dentro del header-->
+			  <p>TE QUEREMOS</p> <!-- poner texto sin considerarlo un titulo-->
+			</nav>	
+	</header> 
+	<main>
+		<H2>LISTA DE SUPER</H2><!-- Etiqueta de Encabezado. Máximo 6-->
+		<section> <!-- contenedores dentro del main-->	
+			<ol class="main_list-container"><!-- Listas ordenadas. Listas desordenadas seria <ul> -->
+				<div>
+					<LI>LACTEOS</LI>
+						<ol><!-- Lista dentro de la misma lista-->
+							<LI>LECHE</LI>
+								<img class="lacteos" id="leche" src="img/leche.png" alt="leche">
+							<LI>QUESO</LI>
+								<img class="lacteos" id="queso" src="img/queso.jpg" alt="queso"> <!-- Para insertar imágenes (tiene que esatar adentro del body). Si la imagen no esta en el mismo nivel de carpetas se le pone img/ antes de poner el nombre como esta guardado, si no solo el nombre. El alt es para poner el nombre que quieres que le aparesca al usuario. El with hace que se cambie el tamaño. El hight se hace de manera automatica; si quisieras deformarlo,podrias usar los dos. EL ID, le da un nombre al objeto con ese diferenciador en especifico(como un apodo). EL class es una agrupación; se puede usar varias veces a diferencia de los ids -->
+							<LI>CREMA</LI>
+								<img class="lacteos" id= "crema"src="img/Crema.jpg" alt="Crema" > <!-- Para insertar imágenes (tiene que esatar adentro del body). Si la imagen no esta en el mismo nivel de carpetas se le pone img/ antes de poner el nombre como esta guardado, si no solo el nombre. El alt es para poner el nombre que quieres que le aparesca al usuario. El with hace que se cambie el tamaño. El hight se hace de manera automatica; si quisieras deformarlo,podrias usar los dos. -->
+							<LI>YOGOURT</LI>
+								<img class="lacteos" id="yogurt" src="img/yogurt.jpg" alt="yogurt">	
+						</ol> <!-- Fin de la lista dentro de la lista-->
+				</div>
+				<div class="divcarniceria">
+					<li>CARNICERIA</LI>	
+						<ol>
+							<LI>SALCHICAS</LI>
+								<img class="carniceria" id="salchichas" src="img/salchichas.png" alt="salchichas">
+							<LI>CARNE</LI>
+								<img class="carniceria" id="carne" src="img/carne.jpg" alt="carne">
+							<LI>POLLO</LI>
+								<img class="carniceria" id="pollo" src="img/pollo.jpeg" alt="pollo">
+						</ol>
+				</div>
+			</ol> <!-- fin de la lista general-->
+		</section>
+		<aside> <!-- contenedor dentro del main-->
+			<h3>COMENTARIOS</h3>
+		</aside>
+    </main>	
+    <footer>
+    	
+    </footer>
+</body>
+</html>

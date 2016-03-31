@@ -1,0 +1,32 @@
+.lacteos{       /*para llamar una clase se pone un . primero y despues los {} para editar adentro*/
+	width:100px;  /*primero se pone la propiedad, luego dos puntos, luego lo que se desea y se termina con punto y coma*/
+}
+#crema{
+	width:100px; /* para llamar a un ID se utiliza el #. CSS tiene prioridad en los IDs sobre las clases y sobre html*/
+}
+.carniceria{
+	width:100px; /* se pueden utilizar px que siempre es igual sin importar el navegador ni la pantalla. EL EM multiplica el valor por los valores dados en todo el body (el tamaño por default de pixeles es 16). Y el % hace que sea igual sin importar donde se abra, es el porcentaje que quieres que represente dentro del contenedor padre. */
+
+}
+body {      /* todo lo que no sea id o clase, se pone sin ningun caractér antes*/
+	background-color: white;       /* pones la propiedad que se desea editar. El codigo es un color sacado de internet (htlm colors), se pone # antes. */
+}
+main{  
+	background-color: white; 
+	display: flex;  /* flex permite hacer movible todo dentro de ese contenedor*/
+}
+
+
+}
+aside{
+	width: 20%; 
+	margin: 40px;
+	display: inline;
+}
+section{
+	width:80%; /* del 100%, es lo que va a representat el section */
+	display: inline;
+}
+.main_list-container {
+	display: flex;
+}
